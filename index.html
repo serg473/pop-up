@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Modal Window</title>
+	<link rel='stylesheet' href='style.css' />
+</head>
+
+<body>
+	<button class='open'>Open modal</button>
+	<div class='modal'>
+		<div class='modal-window'>
+			<div class='modal-close' onclick='closeModal()'>
+				<img src="./img/close.svg" alt="">
+			</div>
+			<h3>Blog post published</h3>
+			<div class='modal-body'>This blog post has been published. Team members will be able to edit this post and
+				republish changes.</div>
+			<button class='confirm'>Confirm</button>
+			<button onclick='closeModal()'>Cancel</button>
+		</div>
+	</div>
+	<script src='script.js'></script>
+</body>
+
+</html>
